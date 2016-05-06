@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mad.idea.hector.atvhelper">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FluidoTerapia" />
+        <activity android:name=".piensos.Piensos" />
+        <activity android:name=".Enfermedades.Enfermedades" />
+        <activity android:name=".piensos.PiensosAnimal" />
+        <activity android:name=".piensos.PiensosMedicamentososPerro" />
+        <activity android:name=".piensos.PiensosMedicamentososGato" />
+        <activity
+            android:name=".piensos.PiensosFisio"
+            android:label="@string/title_activity_piensos_fisio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Enfermedades.TextoEnfermedad"></activity>
+    </application>
+
+</manifest>
